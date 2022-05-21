@@ -29,3 +29,10 @@ echo "\n";
 echo "== と === の確認 その2\n";
 var_dump($i == '1');
 var_dump($i === '1');
+
+// 2a問題の確認
+echo "\n";
+echo "2a問題の確認\n";
+$i = 2;
+var_dump($i == '2a');
+var_dump($i === '2a');
